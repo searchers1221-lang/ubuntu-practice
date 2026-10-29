@@ -1,0 +1,9 @@
+PID 1:
+    PID COMMAND
+      1 systemd
+Мой bash:
+    PID    PPID COMMAND
+    327     325 bash
+Родитель моего bash:
+    PID    PPID COMMAND
+    325     323 Relay(327)
