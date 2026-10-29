@@ -5,6 +5,7 @@
 
 ## Запуск
 Все команды выполнены в Ubuntu (WSL2). Установка пакетов:
+
     sudo apt update && sudo apt install -y git python3 build-essential
 
 ## Результат
