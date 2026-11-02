@@ -1,0 +1,2 @@
+[1]-  Running                    python3 signal_demo.py &
+[2]+  Running                    cat /tmp/chan > fifo_received.txt &
