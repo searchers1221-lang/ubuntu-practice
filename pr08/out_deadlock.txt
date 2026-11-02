@@ -1,0 +1,18 @@
+T1 взял A
+T2 взял B
+Timeout (0:00:03)!
+Thread 0x00007ac12129b6c0 [T2] (most recent call first):
+  File "/home/akmat/ubuntu-practice/pr08/deadlock.py", line 23 in thread2
+  File "/usr/lib/python3.14/threading.py", line 1024 in run
+  File "/usr/lib/python3.14/threading.py", line 1082 in _bootstrap_inner
+  File "/usr/lib/python3.14/threading.py", line 1044 in _bootstrap
+
+Thread 0x00007ac121a9c6c0 [T1] (most recent call first):
+  File "/home/akmat/ubuntu-practice/pr08/deadlock.py", line 16 in thread1
+  File "/usr/lib/python3.14/threading.py", line 1024 in run
+  File "/usr/lib/python3.14/threading.py", line 1082 in _bootstrap_inner
+  File "/usr/lib/python3.14/threading.py", line 1044 in _bootstrap
+
+Thread 0x00007ac12278b1c0 [python3] (most recent call first):
+  File "/usr/lib/python3.14/threading.py", line 1133 in join
+  File "/home/akmat/ubuntu-practice/pr08/deadlock.py", line 29 in <module>
